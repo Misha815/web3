@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Inter', Verdana, Tahoma, sans-serif;
+}
+
+h1 {}
+
+p {
+    margin: 0;
+}
+
+ul {
+    all: unset;
+}
+
+li {
+    all: unset
+}
+
+a {
+    all: unset;
+    cursor: pointer;
+}
+
+button {
+    all: unset;
+    background-color: #2E4FD7;
+    border-radius: 1px;
+    color: #fff;
+    cursor: pointer;
+}
+
+nav {
+    margin: 0 auto;
+    max-width: 1620px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    min-height: 80px;
+
+}
+
+
+
+.nav_logo {
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.nav_logo span {
+    font-family: 'Sixtyfour';
+    font-size: 26px;
+    color: rgb(50, 156, 28);
+}
+
+.nav_bar {}
+
+.nav_bar li {
+    margin-right: 32px;
+
+}
+
+.nav_bar li:last-child {
+    margin-right: 0;
+}
+
+
+.nav_bar li:hover {
+    text-decoration: 3px underline;
+    text-underline-offset: 10px;
+}
+
+.nav_button button {
+    margin: 10px;
+    min-width: 172px;
+    min-height: 32px;
+    text-align: center;
+}
+
+.nav_button button:hover {
+    background-color: #2e50d7f1;
+}
+
+.nav_button button:active {
+    background-color: #2e50d7;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.title-container {
+    background-color: #2e50d713;
+    width: 1540px;
+    height: 840px;
+}

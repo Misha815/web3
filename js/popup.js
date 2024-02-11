@@ -1,12 +1,15 @@
 const popup = document.getElementById('containerPopup');
 const openPopup = document.querySelector('.openPopupBtn');
+const openPopupTl = document.querySelector('.openPopupTl');
 const closePopup = document.querySelector('.send-popup');
+
 
 function openModalAndLockScroll() {
     popup.showModal();
     document.body.classList.add('scroll-lock');
 
 }
+
 
 function returnScroll() {
     document.body.classList.remove('scroll-lock')
@@ -28,6 +31,7 @@ function closeOnClick({ currentTarget, target }) {
 
 popup.addEventListener('click', closeOnClick)
 openPopup.addEventListener('click', openModalAndLockScroll)
+openPopupTl.addEventListener('click', openModalAndLockScroll)
 closePopup.addEventListener('click', (event) => {
     event.stopPropagation()
     close()

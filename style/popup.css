@@ -20,10 +20,10 @@
     }
 }
 
+
+
 dialog {
     position: fixed;
-    width: 487px;
-    height: 662px;
     border: none;
     padding: 0;
     background-color: #ffffff;
@@ -31,9 +31,8 @@ dialog {
     overflow: hidden;
     animation-name: circle-to-square;
     animation-duration: 2s;
+    max-width: 487px;
 }
-
-
 
 .dialog-container {
     margin: 30px;

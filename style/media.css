@@ -3,5 +3,36 @@
         margin-top: 20px;
         margin-bottom: 20px;
     }
+}
 
+@media (width < 376px) {
+    * {
+        margin: 0;
+
+    }
+
+    body {
+        margin: 0;
+    }
+
+    .navigation {
+        display: block;
+    }
+
+    .nav_button {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .nav_bar {
+        display: none;
+    }
+
+    .title-container {
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 370px;
+    }
 }
